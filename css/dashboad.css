@@ -1,0 +1,109 @@
+.con {
+  position:relative;
+  display:inline-block;
+  height:200px;
+  width:200px;
+}
+
+.percent-circle {
+  position:absolute;
+  height:100%;
+  background:#4045e9;
+  overflow: hidden;
+}
+
+.percent-circle-right {
+  right:0;
+  width:100px;
+  border-radius: 0 100px 100px 0/0 100px 100px 0;
+}
+
+.percent-circle-right .right-content{
+  position: absolute;
+  content: '';
+  width: 100%; 
+  height: 100%;
+  transform-origin:left center;
+  transform: rotate(0deg);
+  border-radius: 0 100px 100px 0/0 100px 100px 0;
+  background:#bbb;
+}
+
+.percent-circle-left {
+  width:100px;
+  border-radius: 100px 0 0 100px/100px 0 0 100px;
+}
+
+.percent-circle-left .left-content {
+  position: absolute;
+  content: '';
+  width: 100%; 
+  height: 100%;
+  transform-origin:right center;
+  transform: rotate(0deg);
+  border-radius: 100px 0 0 100px/100px 0 0 100px;
+  background:#bbb;
+}
+
+.text-circle {
+ position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    border-radius: 100%;
+    background: #fbfbfb;
+    color: #2e2626;
+}
+.clearfix{
+	padding: 15px;
+	display: flex;
+	list-style-type: none;
+}
+.sys-li-box{
+	border: 5px solid white;
+	height: 200px;
+	padding: 15px;
+	background-color: whitesmoke;
+}
+.name{
+	margin-top: 50px;
+	color: black;
+}
+.status{
+	border:1px solid grey;
+	border-radius: 5px;
+	height: 310px;
+	margin: 5px 5px 5px 5px;
+	background-color: whitesmoke;
+}	
+.Overview{
+	border:1px solid grey;
+	border-radius: 5px;
+	height: 900px;
+	margin: 5px 5px 5px 5px;
+	background-color: whitesmoke;
+}
+
+
+.btlink{
+	font-size: 25px;
+	text-decoration: none;
+	color: green;
+}
+.Tracfic{
+	border:1px solid grey;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	background-color: whitesmoke;
+	padding-top: 100px;
+}
+.Tracfic .title {
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}

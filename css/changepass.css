@@ -1,0 +1,29 @@
+.pass_show{
+    position: relative
+    
+} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 15px; 
+
+z-index: 1; 
+
+color: #696969; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+
+.pass_show .ptxt:hover{
+    color: #A9A9A9;
+    
+} 
